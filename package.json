@@ -1,0 +1,27 @@
+{
+  "name": "express-base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build ",
+    "start": "node ./dist/index.js",
+    "start:dev": "nodemon ./src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
